@@ -10,12 +10,12 @@ The repository is designed to guide users through the process of planning, deplo
 ---
 
 ## Documents
-- [Network Planning Guide (PDF)](docs/network-planning.md): Covers IP addressing, subnetting, and topology design.
-- [Basic Home Network Guide (PDF)](docs/home-network.md): A step-by-step guide for setting up a home network, including components, configuration, and security tips.
-- [Small Office Network Guide (PDF)](docs/small-office-network.md): Instructions for connecting multiple office devices securely and efficiently.
-- [VLAN-Segmented Network Guide (PDF)](docs/vlan-network.md): Detailed steps for creating segmented networks using VLANs for better organization and security.
-- [Simple WAN Network Guide (PDF)](docs/wan-network.md): A comprehensive guide for connecting multiple locations securely using VPN.
-- [Network Troubleshooting Guide (PDF)](docs/network-troubleshooting.md): Common network issues and step-by-step resolutions.
+- [Network Planning Guide (MD)](docs/network_planning.md): Covers IP addressing, subnetting, and topology design.
+- [Basic Home Network Guide (MD)](docs/basic_home_network.md): A step-by-step guide for setting up a home network, including components, configuration, and security tips.
+- [Small Office Network Guide (MD)](docs/small_office_network.md): Instructions for connecting multiple office devices securely and efficiently.
+- [VLAN-Segmented Network Guide (MD)](docs/vlan_network.md): Detailed steps for creating segmented networks using VLANs for better organization and security.
+- [Simple WAN Network Guide (MD)](docs/wan_network.md): A comprehensive guide for connecting multiple locations securely using VPN.
+- [Network Troubleshooting Guide (MD)](docs/network_troubleshooting.md): Common network issues and step-by-step resolutions.
 
 ---
 
@@ -39,10 +39,10 @@ The repository is designed to guide users through the process of planning, deplo
 
 ## Lab Scenarios
 To enhance hands-on learning, this repository includes practical lab exercises and simulations using GNS3 and Packet Tracer.
-- [Home Office Setup](labs/home-office-setup.md): Configuring a secure home office network.
-- [VLAN Segmentation](labs/vlan-segmentation.md): Creating and testing VLANs.
-- [Site-to-Site VPN](labs/site-to-site-vpn.md): Setting up a VPN tunnel between two locations.
-- [Network Monitoring](labs/network-monitoring.md): Configuring SNMP and monitoring tools.
+- [Home Office Setup (MD)](labs/home-office-setup.md): Configuring a secure home office network.
+- [VLAN Segmentation (MD)](labs/vlan-segmentation.md): Creating and testing VLANs.
+- [Site-to-Site VPN (MD)](labs/site-to-site-vpn.md): Setting up a VPN tunnel between two locations.
+- [Network Monitoring (MD)](labs/network-monitoring.md): Configuring SNMP and monitoring tools.
 
 ---
 
@@ -71,4 +71,5 @@ Contributions are welcome for improving documentation, templates, and visuals. P
 
 ## 📧 Contact
 For questions, reach out via GitHub Issues or Discussions.
+
 
