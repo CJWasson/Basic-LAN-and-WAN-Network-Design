@@ -1,19 +1,21 @@
 # Basic LAN and WAN Network Design
 
-This repository showcases a comprehensive approach to designing and implementing LAN and WAN networks. It contains essential resources like templates, visuals, and documentation to streamline the network design process.
+This repository showcases a comprehensive approach to designing, implementing, and managing LAN and WAN networks. It contains essential resources like templates, visuals, and documentation to streamline the network design and deployment process.
 
 ---
 
 ## Project Overview
-The repository is designed to guide users through the process of planning and deploying secure and efficient networks. It includes detailed documentation, editable templates, and visual aids to assist in every stage of network design and implementation.
+The repository is designed to guide users through the process of planning, deploying, and maintaining secure and efficient networks. It includes detailed documentation, editable templates, configuration examples, and visual aids to assist in every stage of network design and implementation.
 
 ---
 
 ## Documents
+- [Network Planning Guide (PDF)](docs/network-planning.md): Covers IP addressing, subnetting, and topology design.
 - [Basic Home Network Guide (PDF)](docs/home-network.md): A step-by-step guide for setting up a home network, including components, configuration, and security tips.
 - [Small Office Network Guide (PDF)](docs/small-office-network.md): Instructions for connecting multiple office devices securely and efficiently.
 - [VLAN-Segmented Network Guide (PDF)](docs/vlan-network.md): Detailed steps for creating segmented networks using VLANs for better organization and security.
 - [Simple WAN Network Guide (PDF)](docs/wan-network.md): A comprehensive guide for connecting multiple locations securely using VPN.
+- [Network Troubleshooting Guide (PDF)](docs/network-troubleshooting.md): Common network issues and step-by-step resolutions.
 
 ---
 
@@ -22,13 +24,33 @@ The repository is designed to guide users through the process of planning and de
 - [Small Office Network Diagram (PNG)](visuals/small-office-network.png): Diagram illustrating the layout of a secure small office network.
 - [VLAN Network Diagram (PNG)](visuals/vlan-network.png): Visual breakdown of VLAN-segmented network architecture.
 - [WAN Network Diagram (PNG)](visuals/wan-network.png): Illustration of a simple wide area network with VPN tunnels.
+- [Network Monitoring Flowchart (PNG)](visuals/network-monitoring-flowchart.png): Steps for monitoring and maintaining network performance.
 
 ---
 
 ## Templates
+- [Network Configuration Checklist (MD)](templates/network-config-checklist.md): Editable checklist for network setup and deployment.
 - [DHCP Configuration Template (TXT)](templates/dhcp-config.txt): Editable template for DHCP server configuration.
 - [VLAN Configuration Template (TXT)](templates/vlan-config.txt): Sample configuration for setting up VLANs on a managed switch.
 - [VPN Configuration Template (TXT)](templates/vpn-config.txt): Template for configuring IPsec VPN tunnels between branch offices.
+- [Network Monitoring Setup (MD)](templates/network-monitoring-setup.md): Step-by-step guide for configuring SNMP, PRTG, or Nagios.
+
+---
+
+## Lab Scenarios
+To enhance hands-on learning, this repository includes practical lab exercises and simulations using GNS3 and Packet Tracer.
+- [Home Office Setup](labs/home-office-setup.md): Configuring a secure home office network.
+- [VLAN Segmentation](labs/vlan-segmentation.md): Creating and testing VLANs.
+- [Site-to-Site VPN](labs/site-to-site-vpn.md): Setting up a VPN tunnel between two locations.
+- [Network Monitoring](labs/network-monitoring.md): Configuring SNMP and monitoring tools.
+
+---
+
+## Automation and Scripts
+To simplify network management, this repository includes automation scripts:
+- [IP Scanner (Python)](scripts/ip-scanner.py): Scans the network for active devices.
+- [Config Backup (Bash)](scripts/config-backup.sh): Automates router and switch configuration backups.
+- [Log Analyzer (Python)](scripts/log-analyzer.py): Analyzes network logs for anomalies.
 
 ---
 
@@ -49,3 +71,4 @@ Contributions are welcome for improving documentation, templates, and visuals. P
 
 ## 📧 Contact
 For questions, reach out via GitHub Issues or Discussions.
+
