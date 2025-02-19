@@ -6,17 +6,17 @@ This template provides the essential configuration settings for setting up a DHC
 
 ## 📄 Example DHCP Configuration (Cisco IOS)
 ```shell
-! Enable DHCP service
+Enable DHCP service
 service dhcp
 
-! Define DHCP pool for LAN
+Define DHCP pool for LAN
 ip dhcp pool LAN_POOL
  network 192.168.10.0 255.255.255.0
  default-router 192.168.10.1
  dns-server 8.8.8.8 8.8.4.4
  lease 7
 
-! Exclude static IPs from the pool
+Exclude static IPs from the pool
 ip dhcp excluded-address 192.168.10.1 192.168.10.20
 ```
 
@@ -49,3 +49,4 @@ show ip dhcp conflict
 ---
 
 This configuration ensures efficient IP management and prevents conflicts in the network.
+
