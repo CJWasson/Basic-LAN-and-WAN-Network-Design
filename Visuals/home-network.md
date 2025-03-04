@@ -1,62 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile>
-  <diagram name="Home Network Diagram">
-    <mxGraphModel dx="1425" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram name="Home Network Diagram" id="0">
+    <mxGraphModel dx="4459" dy="2918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        
-        <!-- Internet -->
-        <mxCell id="2" value="Internet" style="ellipse;fillColor=#D4E157;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="400" y="50" width="100" height="50" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Internet" style="ellipse;fillColor=#D4E157;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="400" y="50" width="100" height="50" as="geometry" />
         </mxCell>
-        
-        <!-- Firewall -->
-        <mxCell id="3" value="Firewall" style="shape=hexagon;fillColor=#FF7043;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="100" height="50" as="geometry"/>
+        <mxCell id="3" value="Firewall" style="shape=hexagon;fillColor=#FF7043;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="400" y="120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4" edge="1" parent="1" source="2" target="3"/>
-        
-        <!-- Router -->
-        <mxCell id="5" value="Router" style="shape=trapezoid;fillColor=#64B5F6;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="400" y="190" width="100" height="50" as="geometry"/>
+        <mxCell id="4" parent="1" source="2" target="3" edge="1" />
+        <mxCell id="5" value="Router" style="shape=trapezoid;fillColor=#64B5F6;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="400" y="190" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6" edge="1" parent="1" source="3" target="5"/>
-        
-        <!-- Switch -->
-        <mxCell id="7" value="Switch" style="shape=rectangle;fillColor=#FFEB3B;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="400" y="260" width="100" height="50" as="geometry"/>
+        <mxCell id="6" parent="1" source="3" target="5" edge="1" />
+        <mxCell id="7" value="Switch" style="shape=rectangle;fillColor=#FFEB3B;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="400" y="260" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8" edge="1" parent="1" source="5" target="7"/>
-        
-        <!-- Wireless AP -->
-        <mxCell id="9" value="Wireless AP" style="shape=ellipse;fillColor=#81C784;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="550" y="260" width="100" height="50" as="geometry"/>
+        <mxCell id="8" parent="1" source="5" target="7" edge="1" />
+        <mxCell id="9" value="Wireless AP" style="shape=ellipse;fillColor=#81C784;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="550" y="260" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="10" edge="1" parent="1" source="5" target="9"/>
-        
-        <!-- End Devices -->
-        <mxCell id="11" value="PC 1" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="300" y="330" width="100" height="50" as="geometry"/>
+        <mxCell id="10" parent="1" source="5" target="9" edge="1" />
+        <mxCell id="11" value="PC 1" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="300" y="330" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="12" edge="1" parent="1" source="7" target="11"/>
-        
-        <mxCell id="13" value="PC 2" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="400" y="330" width="100" height="50" as="geometry"/>
+        <mxCell id="12" parent="1" source="7" target="11" edge="1" />
+        <mxCell id="13" value="PC 2" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="400" y="330" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="14" edge="1" parent="1" source="7" target="13"/>
-        
-        <mxCell id="15" value="Laptop" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="550" y="330" width="100" height="50" as="geometry"/>
+        <mxCell id="14" parent="1" source="7" target="13" edge="1" />
+        <mxCell id="15" value="Laptop" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="550" y="330" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="16" edge="1" parent="1" source="9" target="15"/>
-        
-        <mxCell id="17" value="Printer" style="shape=rectangle;fillColor=#A5D6A7;strokeColor=#000000" vertex="1" parent="1">
-          <mxGeometry x="200" y="330" width="100" height="50" as="geometry"/>
+        <mxCell id="16" parent="1" source="9" target="15" edge="1" />
+        <mxCell id="17" value="Printer" style="shape=rectangle;fillColor=#A5D6A7;strokeColor=#000000" parent="1" vertex="1">
+          <mxGeometry x="200" y="330" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="18" edge="1" parent="1" source="7" target="17"/>
+        <mxCell id="18" parent="1" source="7" target="17" edge="1" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-18" value="Internet" style="ellipse;fillColor=#D4E157;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-19" value="Firewall" style="shape=hexagon;fillColor=#FF7043;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-20" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-18" target="KHUMOH-2GiU43_IcQN2v-19" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-21" value="Router" style="shape=trapezoid;fillColor=#64B5F6;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-22" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-19" target="KHUMOH-2GiU43_IcQN2v-21" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-23" value="Switch" style="shape=rectangle;fillColor=#FFEB3B;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-24" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-21" target="KHUMOH-2GiU43_IcQN2v-23" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-25" value="Wireless AP" style="shape=ellipse;fillColor=#81C784;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-26" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-21" target="KHUMOH-2GiU43_IcQN2v-25" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-27" value="PC 1" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-28" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-23" target="KHUMOH-2GiU43_IcQN2v-27" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-29" value="PC 2" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-30" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-23" target="KHUMOH-2GiU43_IcQN2v-29" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-31" value="Laptop" style="shape=rectangle;fillColor=#90CAF9;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="550" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-32" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-25" target="KHUMOH-2GiU43_IcQN2v-31" />
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-33" value="Printer" style="shape=rectangle;fillColor=#A5D6A7;strokeColor=#000000" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KHUMOH-2GiU43_IcQN2v-34" edge="1" parent="1" source="KHUMOH-2GiU43_IcQN2v-23" target="KHUMOH-2GiU43_IcQN2v-33" />
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
-
